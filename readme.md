@@ -1,7 +1,7 @@
-Name: Muhammad Shaghil Arshad
-Email: shaghil.sha@gmail.com
+**Name: Muhammad Shaghil Arshad
+Email: shaghil.sha@gmail.com**
 
-#Tasks:
+**Tasks:**
 1. Upload large file on azure blob storage in chunks, the chunk size will be configurable 
 2. Create one published and two subscriber on Azure Service Bus publisher publish messages with a unique identity and subscribers will log these unique messages in a table with unique identity of messages assigned by publisher
 3. Create one published and two subscriber on KAFKA publisher publish messages with a unique identity and subscribers will log these unique messages in a table with unique identity of messages assigned by publisher
