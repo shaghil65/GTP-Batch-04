@@ -1,0 +1,15 @@
+﻿<h1>DashBoard</h1>
+
+
+
+
+
+@if (!Context.User.Identity.IsAuthenticated)
+{
+    <a asp-area="" asp-controller="Home" asp-action="Login">Login</a>
+}
+else{
+    <p>Hello, @User.Identity.Name</p><br />
+    <a asp-area="" asp-controller="Home" asp-action="Logout">Logout</a><br /><br />
+    @*<p>@ViewData["claims"]</p>*@
+}

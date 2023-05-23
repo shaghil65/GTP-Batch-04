@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "DEkhAGlBq4MlsGXud1OSNMzvH+o80+oo0CVyfEerjVKsmGtQgHl88H/qDz/UQjNzbv7A0qr1rzFvcsUV45yPUQ==",
+  "success": true,
+  "projectFilePath": "E:\\GTP-Batch-04\\Task10_Google_Auth\\Task10_Google_Auth\\Task10_Google_Auth.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SHAGHIL\\.nuget\\packages\\microsoft.aspnetcore.authentication.google\\7.0.5\\microsoft.aspnetcore.authentication.google.7.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}
