@@ -19,6 +19,23 @@ namespace Task7_UpdateEF.Controllers
         {
             return View(_db.Persons.ToList());
         }
+
+        public IActionResult Create()
+        {
+            return View();
+        }
+        [HttpPost, AutoValidateAntiforgeryToken]
+        public IActionResult Create(Person person)
+        {
+            if (ModelState.IsValid)
+            {
+                _db.Persons.Add(person);
+                _db.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View();
+        }
+
         public IActionResult Edit(int id)
         {
             if (id > 0)
@@ -44,13 +61,15 @@ namespace Task7_UpdateEF.Controllers
             return View();
         }
 
-
-
-
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
+        public IActionResult Delete(int? id)
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            Person? person = _db.Persons.Find(id);
+            if (person != null)
+            {
+                _db.Persons.Remove(person);
+                _db.SaveChanges();
+            }
+            return RedirectToAction("Index");
         }
     }
 }

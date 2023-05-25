@@ -11,8 +11,8 @@ using Task7_UpdateEF.Data;
 namespace Task7_UpdateEF.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230523185359_addPersonTableWithSeedData")]
-    partial class addPersonTableWithSeedData
+    [Migration("20230525173836_addPersontbl")]
+    partial class addPersontbl
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -35,7 +35,20 @@ namespace Task7_UpdateEF.Migrations
                     b.Property<int>("Age")
                         .HasColumnType("int");
 
-                    b.Property<string>("Name")
+                    b.Property<string>("City")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("FirstName")
+                        .IsRequired()
+                        .HasMaxLength(30)
+                        .HasColumnType("nvarchar(30)");
+
+                    b.Property<string>("LastName")
                         .IsRequired()
                         .HasMaxLength(30)
                         .HasColumnType("nvarchar(30)");
@@ -43,26 +56,6 @@ namespace Task7_UpdateEF.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Persons");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Age = 17,
-                            Name = "Bilal"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            Age = 22,
-                            Name = "Shaghil"
-                        },
-                        new
-                        {
-                            Id = 3,
-                            Age = 23,
-                            Name = "Ali"
-                        });
                 });
 #pragma warning restore 612, 618
         }

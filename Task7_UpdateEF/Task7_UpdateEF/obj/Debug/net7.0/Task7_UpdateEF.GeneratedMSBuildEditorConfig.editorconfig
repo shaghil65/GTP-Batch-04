@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = E:\GTP-Batch-04\Task7_UpdateEF\Task7_UpdateEF
 build_property._RazorSourceGeneratorDebug = 
 
+[E:/GTP-Batch-04/Task7_UpdateEF/Task7_UpdateEF/Views/Home/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [E:/GTP-Batch-04/Task7_UpdateEF/Task7_UpdateEF/Views/Home/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFZGl0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

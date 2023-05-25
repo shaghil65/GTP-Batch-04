@@ -7,31 +7,44 @@
         </div>
         <div class="card-body">
             <div class="row px-3">
-                <div class="row">
-                <table class="table table-bordered table-striped">
-                    <thead>
-                        <tr>
-                            <th>Name</th>
-                            <th>Age</th>
-                            <th></th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        @foreach (var item in Model)
-                        {
+                <div class="row mb-3">
+                    <div class="col-10">
+                    </div>
+                    <div class="col-2">
+                        <a type="button" class="btn btn-success" asp-controller="Home" asp-action="Create"> Add Person</a>
+                    </div>
+                </div>
+                    <table class="table table-bordered table-striped">
+                        <thead>
                             <tr>
-                                <td>@item.Name</td>
-                                <td>@item.Age</td>
-                                <td class="text-center">
-                                        <a type="button" class="btn btn-primary w-50 mx-2" asp-route-id="@item.Id" asp-controller="Home" asp-action="Edit">Edit</a>
-                                </td>
+                                <th>Firstname</th>
+                                <th>Lastname</th>
+                                <th>Email</th>
+                                <th>Age</th>
+                                <th>City</th>
+                                <th></th>
                             </tr>
-                        }
-                    </tbody>
-                </table>
-            </div>
-
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td>@item.FirstName</td>
+                                    <td>@item.LastName</td>
+                                    <td>@item.Email</td>
+                                    <td>@item.Age</td>
+                                    <td>@item.City</td>
+                                    <td class="text-center">
+                                        <div class="d-flex" role="group">
+                                            <a type="button" class="btn btn-primary w-50 mx-2" asp-route-id="@item.Id" asp-controller="Home" asp-action="Edit">Edit</a>
+                                            <a type="button" class="btn btn-danger w-50 mx-2" asp-route-id="@item.Id" asp-controller="Home" asp-action="Delete">Delete</a>
+                                        </div>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
         </div>
-    </div>
     </div>
 </div>
