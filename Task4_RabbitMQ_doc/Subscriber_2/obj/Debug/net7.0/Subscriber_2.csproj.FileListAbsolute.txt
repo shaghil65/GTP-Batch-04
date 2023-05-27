@@ -1,0 +1,17 @@
+E:\test\Task4_RabbitMQ_doc\Subscriber_2\bin\Debug\net7.0\Subscriber_2.exe
+E:\test\Task4_RabbitMQ_doc\Subscriber_2\bin\Debug\net7.0\Subscriber_2.deps.json
+E:\test\Task4_RabbitMQ_doc\Subscriber_2\bin\Debug\net7.0\Subscriber_2.runtimeconfig.json
+E:\test\Task4_RabbitMQ_doc\Subscriber_2\bin\Debug\net7.0\Subscriber_2.dll
+E:\test\Task4_RabbitMQ_doc\Subscriber_2\bin\Debug\net7.0\Subscriber_2.pdb
+E:\test\Task4_RabbitMQ_doc\Subscriber_2\bin\Debug\net7.0\RabbitMQ.Client.dll
+E:\test\Task4_RabbitMQ_doc\Subscriber_2\obj\Debug\net7.0\Subscriber_2.csproj.AssemblyReference.cache
+E:\test\Task4_RabbitMQ_doc\Subscriber_2\obj\Debug\net7.0\Subscriber_2.GeneratedMSBuildEditorConfig.editorconfig
+E:\test\Task4_RabbitMQ_doc\Subscriber_2\obj\Debug\net7.0\Subscriber_2.AssemblyInfoInputs.cache
+E:\test\Task4_RabbitMQ_doc\Subscriber_2\obj\Debug\net7.0\Subscriber_2.AssemblyInfo.cs
+E:\test\Task4_RabbitMQ_doc\Subscriber_2\obj\Debug\net7.0\Subscriber_2.csproj.CoreCompileInputs.cache
+E:\test\Task4_RabbitMQ_doc\Subscriber_2\obj\Debug\net7.0\Subscriber_2.csproj.CopyComplete
+E:\test\Task4_RabbitMQ_doc\Subscriber_2\obj\Debug\net7.0\Subscriber_2.dll
+E:\test\Task4_RabbitMQ_doc\Subscriber_2\obj\Debug\net7.0\refint\Subscriber_2.dll
+E:\test\Task4_RabbitMQ_doc\Subscriber_2\obj\Debug\net7.0\Subscriber_2.pdb
+E:\test\Task4_RabbitMQ_doc\Subscriber_2\obj\Debug\net7.0\Subscriber_2.genruntimeconfig.cache
+E:\test\Task4_RabbitMQ_doc\Subscriber_2\obj\Debug\net7.0\ref\Subscriber_2.dll
