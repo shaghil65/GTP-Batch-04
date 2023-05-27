@@ -3328,11 +3328,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\test\\Task4_RabbitMQ_doc\\Subscriber_1\\Subscriber.csproj",
+      "projectUniqueName": "E:\\GTP-Batch-04\\Task4_RabbitMQ_doc\\Subscriber\\Subscriber.csproj",
       "projectName": "Subscriber",
-      "projectPath": "E:\\test\\Task4_RabbitMQ_doc\\Subscriber_1\\Subscriber.csproj",
+      "projectPath": "E:\\GTP-Batch-04\\Task4_RabbitMQ_doc\\Subscriber\\Subscriber.csproj",
       "packagesPath": "C:\\Users\\SHAGHIL\\.nuget\\packages\\",
-      "outputPath": "E:\\test\\Task4_RabbitMQ_doc\\Subscriber_1\\obj\\",
+      "outputPath": "E:\\GTP-Batch-04\\Task4_RabbitMQ_doc\\Subscriber\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages"
@@ -3355,8 +3355,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "E:\\test\\Task4_RabbitMQ_doc\\Publisher\\Publisher.csproj": {
-              "projectPath": "E:\\test\\Task4_RabbitMQ_doc\\Publisher\\Publisher.csproj"
+            "E:\\GTP-Batch-04\\Task4_RabbitMQ_doc\\Publisher\\Publisher.csproj": {
+              "projectPath": "E:\\GTP-Batch-04\\Task4_RabbitMQ_doc\\Publisher\\Publisher.csproj"
             }
           }
         }

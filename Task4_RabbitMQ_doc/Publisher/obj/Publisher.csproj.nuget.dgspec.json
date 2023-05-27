@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\test\\Task4_RabbitMQ_doc\\Publisher\\Publisher.csproj": {}
+    "E:\\GTP-Batch-04\\Task4_RabbitMQ_doc\\Publisher\\Publisher.csproj": {}
   },
   "projects": {
-    "E:\\test\\Task4_RabbitMQ_doc\\Publisher\\Publisher.csproj": {
+    "E:\\GTP-Batch-04\\Task4_RabbitMQ_doc\\Publisher\\Publisher.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\test\\Task4_RabbitMQ_doc\\Publisher\\Publisher.csproj",
+        "projectUniqueName": "E:\\GTP-Batch-04\\Task4_RabbitMQ_doc\\Publisher\\Publisher.csproj",
         "projectName": "Publisher",
-        "projectPath": "E:\\test\\Task4_RabbitMQ_doc\\Publisher\\Publisher.csproj",
+        "projectPath": "E:\\GTP-Batch-04\\Task4_RabbitMQ_doc\\Publisher\\Publisher.csproj",
         "packagesPath": "C:\\Users\\SHAGHIL\\.nuget\\packages\\",
-        "outputPath": "E:\\test\\Task4_RabbitMQ_doc\\Publisher\\obj\\",
+        "outputPath": "E:\\GTP-Batch-04\\Task4_RabbitMQ_doc\\Publisher\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages"

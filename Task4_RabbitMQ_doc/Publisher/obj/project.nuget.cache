@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SGV1vDuiTpt8N0BCOJHBteVnMatF1uioDC0Zz0gcHWUtq60o7s8m8Ov6B5vOjsN/SWvNmhh9mudSJQPJ03UnbQ==",
+  "dgSpecHash": "kGBAEhgyG6Ra2idG/qJMk7dAfi0B4a4g8K1/Rde/QrDof6d9tgnwCfOQNH77u05GbTfjYPHmspaA44R3ufpHng==",
   "success": true,
-  "projectFilePath": "E:\\test\\Task4_RabbitMQ_doc\\Publisher\\Publisher.csproj",
+  "projectFilePath": "E:\\GTP-Batch-04\\Task4_RabbitMQ_doc\\Publisher\\Publisher.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SHAGHIL\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\SHAGHIL\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
