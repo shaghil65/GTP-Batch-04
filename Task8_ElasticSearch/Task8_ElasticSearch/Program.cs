@@ -1,68 +1,94 @@
-﻿using System;
+﻿using Nest;
+using System;
 using System.Diagnostics.Metrics;
-using Serilog;
-using Serilog.Sinks.Elasticsearch;
-using Nest;
 
-namespace LogDataGenerator
+namespace LogDataConsoleApp
 {
     class Program
     {
-        static int counter = 0;
         static void Main(string[] args)
         {
+            var settings = new ConnectionSettings(new Uri("http://localhost:9200"))
+                .DefaultIndex("logdata");
 
-            Log.Logger = new LoggerConfiguration()
-                .WriteTo.Console()
-                .WriteTo.Elasticsearch(new ElasticsearchSinkOptions(new Uri("http://localhost:9200"))
-                {
-                    IndexFormat = "mydata-{0:yyyy.MM.dd}",
-                    AutoRegisterTemplate = true
-                })
-                .CreateLogger();
-            SearchLogs("This is Random Text4");
-            //while (true)
-            //{
-            //    Guid id = Guid.NewGuid();
-            //    string randomText = GetRandomText();
-
-            //    Log.Information("Log ID: " + id + " - Random Text:" + randomText);
-
-            //    Thread.Sleep(5000);
-            //}
-        }
-        private static string GetRandomText()
-        {
-            return "This is Random Text" + counter++;
-        }
-        private static void SearchLogs(string searchTerm)
-        {
-            var settings = new ConnectionSettings(new Uri("http://localhost:9200"));
             var client = new ElasticClient(settings);
+            if (!client.Indices.Exists("logdata").Exists)
+            {
+                client.Indices.Create("logdata");
+            }
+            while (true)
+            {
+                var log = GenerateLogData();
+                IndexResponse response = client.IndexDocument(log);
 
-            var response = client.Search<string>(s => s
-                .Index("mydata-*")
+                if (response.IsValid)
+                {
+                    Console.WriteLine($"Indexed log with GUID: {log.Id}");
+                }
+                else
+                {
+                    Console.WriteLine($"Failed to index log with GUID: {log.Id}");
+                }
+                Thread.Sleep(4000);
+            }
+
+            //PerformSearch(client);
+        }
+
+        static void PerformSearch(IElasticClient client)
+        {
+            while (true)
+            {
+                Console.WriteLine("Enter search query or enter to exit:");
+                var query = Console.ReadLine();
+
+                if (string.IsNullOrWhiteSpace(query))
+                {
+                    break;
+                }
+
+                var searchResponse = SearchLogs(client, query);
+
+                Console.WriteLine($"Search results for '{query}':");
+                foreach (var hit in searchResponse.Hits)
+                {
+                    Console.WriteLine($"- {hit.Source.Message}");
+                }
+            }
+        }
+
+        static ISearchResponse<LogData> SearchLogs(IElasticClient client, string query)
+        {
+            return client.Search<LogData>(s => s
                 .Query(q => q
-                    .MatchPhrase(m => m
-                        .Field("message")
-                        .Query(searchTerm)
+                    .Match(m => m
+                        .Field(f => f.Message)
+                        .Query(query)
                     )
                 )
             );
-
-            if (response.IsValid)
-            {
-                Console.WriteLine("Search Results:");
-                foreach (var hit in response.Hits)
-                {
-                    Console.WriteLine($"Log ID: {hit.Id}, Message: {hit.Source}");
-                }
-            }
-            else
-            {
-                Console.WriteLine("Search failed");
-            }
         }
 
+        static LogData GenerateLogData()
+        {
+            return new LogData
+            {
+                Id = Guid.NewGuid().ToString(),
+                Message = GenerateRandomText()
+            };
+        }
+
+        public static int counter = 0; 
+        static string GenerateRandomText()
+        {
+            counter++;
+            return "Random Text " + counter;
+        }
+    }
+
+    public class LogData
+    {
+        public string Id { get; set; }
+        public string Message { get; set; }
     }
 }

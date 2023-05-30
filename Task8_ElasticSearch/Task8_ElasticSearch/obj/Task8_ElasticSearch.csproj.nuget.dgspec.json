@@ -49,18 +49,6 @@
             "NEST": {
               "target": "Package",
               "version": "[7.17.5, )"
-            },
-            "Serilog": {
-              "target": "Package",
-              "version": "[2.12.0, )"
-            },
-            "Serilog.Sinks.Console": {
-              "target": "Package",
-              "version": "[4.1.0, )"
-            },
-            "Serilog.Sinks.Elasticsearch": {
-              "target": "Package",
-              "version": "[9.0.1, )"
             }
           },
           "imports": [

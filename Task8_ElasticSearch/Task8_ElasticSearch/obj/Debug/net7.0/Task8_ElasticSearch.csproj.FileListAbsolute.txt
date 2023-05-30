@@ -37,13 +37,6 @@ E:\GTP-Batch-04\Task8_ElasticSearch\Task8_ElasticSearch\bin\Debug\net7.0\Task8_E
 E:\GTP-Batch-04\Task8_ElasticSearch\Task8_ElasticSearch\bin\Debug\net7.0\Task8_ElasticSearch.pdb
 E:\GTP-Batch-04\Task8_ElasticSearch\Task8_ElasticSearch\bin\Debug\net7.0\Elasticsearch.Net.dll
 E:\GTP-Batch-04\Task8_ElasticSearch\Task8_ElasticSearch\bin\Debug\net7.0\Nest.dll
-E:\GTP-Batch-04\Task8_ElasticSearch\Task8_ElasticSearch\bin\Debug\net7.0\Serilog.dll
-E:\GTP-Batch-04\Task8_ElasticSearch\Task8_ElasticSearch\bin\Debug\net7.0\Serilog.Formatting.Compact.dll
-E:\GTP-Batch-04\Task8_ElasticSearch\Task8_ElasticSearch\bin\Debug\net7.0\Serilog.Formatting.Elasticsearch.dll
-E:\GTP-Batch-04\Task8_ElasticSearch\Task8_ElasticSearch\bin\Debug\net7.0\Serilog.Sinks.Console.dll
-E:\GTP-Batch-04\Task8_ElasticSearch\Task8_ElasticSearch\bin\Debug\net7.0\Serilog.Sinks.Elasticsearch.dll
-E:\GTP-Batch-04\Task8_ElasticSearch\Task8_ElasticSearch\bin\Debug\net7.0\Serilog.Sinks.File.dll
-E:\GTP-Batch-04\Task8_ElasticSearch\Task8_ElasticSearch\bin\Debug\net7.0\Serilog.Sinks.PeriodicBatching.dll
 E:\GTP-Batch-04\Task8_ElasticSearch\Task8_ElasticSearch\obj\Debug\net7.0\Task8_ElasticSearch.csproj.CopyComplete
 E:\GTP-Batch-04\Task8_ElasticSearch\Task8_ElasticSearch\obj\Debug\net7.0\Task8_ElasticSearch.genruntimeconfig.cache
 E:\GTP-Batch-04\Task8_ElasticSearch\Task8_ElasticSearch\obj\Debug\net7.0\ref\Task8_ElasticSearch.dll
