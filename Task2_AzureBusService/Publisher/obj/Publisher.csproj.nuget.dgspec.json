@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\test\\Task2_AzureBusService\\Publisher\\Publisher.csproj": {}
+    "E:\\GTP-Batch-04\\Task2_AzureBusService\\Publisher\\Publisher.csproj": {}
   },
   "projects": {
-    "E:\\test\\Task2_AzureBusService\\Publisher\\Publisher.csproj": {
+    "E:\\GTP-Batch-04\\Task2_AzureBusService\\Publisher\\Publisher.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\test\\Task2_AzureBusService\\Publisher\\Publisher.csproj",
+        "projectUniqueName": "E:\\GTP-Batch-04\\Task2_AzureBusService\\Publisher\\Publisher.csproj",
         "projectName": "Publisher",
-        "projectPath": "E:\\test\\Task2_AzureBusService\\Publisher\\Publisher.csproj",
+        "projectPath": "E:\\GTP-Batch-04\\Task2_AzureBusService\\Publisher\\Publisher.csproj",
         "packagesPath": "C:\\Users\\SHAGHIL\\.nuget\\packages\\",
-        "outputPath": "E:\\test\\Task2_AzureBusService\\Publisher\\obj\\",
+        "outputPath": "E:\\GTP-Batch-04\\Task2_AzureBusService\\Publisher\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages"
@@ -63,6 +63,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.5, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
             }
           },
           "imports": [

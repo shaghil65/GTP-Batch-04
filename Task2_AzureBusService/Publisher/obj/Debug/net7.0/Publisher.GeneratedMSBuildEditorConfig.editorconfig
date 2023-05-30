@@ -8,4 +8,4 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Publisher
-build_property.ProjectDir = E:\test\Task2_AzureBusService\Publisher\
+build_property.ProjectDir = E:\GTP-Batch-04\Task2_AzureBusService\Publisher\
