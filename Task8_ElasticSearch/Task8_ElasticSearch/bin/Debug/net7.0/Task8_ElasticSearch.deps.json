@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v7.0": {
       "Task8_ElasticSearch/1.0.0": {
         "dependencies": {
+          "NEST": "7.17.5",
           "Serilog": "2.12.0",
           "Serilog.Sinks.Console": "4.1.0",
           "Serilog.Sinks.Elasticsearch": "9.0.1"
@@ -30,6 +31,17 @@
         }
       },
       "Microsoft.CSharp/4.6.0": {},
+      "NEST/7.17.5": {
+        "dependencies": {
+          "Elasticsearch.Net": "7.17.5"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Nest.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.17.5.0"
+          }
+        }
+      },
       "Serilog/2.12.0": {
         "runtime": {
           "lib/net6.0/Serilog.dll": {
@@ -138,6 +150,13 @@
       "sha512": "sha512-kxn3M2rnAGy5N5DgcIwcE8QTePWU/XiYcQVzn9HqTls2NKluVzVSmVWRjK7OUPWbljCXuZxHyhEz9kPRIQeXow==",
       "path": "microsoft.csharp/4.6.0",
       "hashPath": "microsoft.csharp.4.6.0.nupkg.sha512"
+    },
+    "NEST/7.17.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-bo9UyuIoVRx4IUQiuC8ZrlZuvAXKIccernC7UUKukQCEmRq2eVIk+gubHlnMQljrP51q0mN4cjgy9vv5uZPkoA==",
+      "path": "nest/7.17.5",
+      "hashPath": "nest.7.17.5.nupkg.sha512"
     },
     "Serilog/2.12.0": {
       "type": "package",

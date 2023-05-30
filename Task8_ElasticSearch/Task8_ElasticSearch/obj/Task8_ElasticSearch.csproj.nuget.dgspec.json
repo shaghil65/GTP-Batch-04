@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\test\\Task8_ElasticSearch\\Task8_ElasticSearch\\Task8_ElasticSearch.csproj": {}
+    "E:\\GTP-Batch-04\\Task8_ElasticSearch\\Task8_ElasticSearch\\Task8_ElasticSearch.csproj": {}
   },
   "projects": {
-    "E:\\test\\Task8_ElasticSearch\\Task8_ElasticSearch\\Task8_ElasticSearch.csproj": {
+    "E:\\GTP-Batch-04\\Task8_ElasticSearch\\Task8_ElasticSearch\\Task8_ElasticSearch.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\test\\Task8_ElasticSearch\\Task8_ElasticSearch\\Task8_ElasticSearch.csproj",
+        "projectUniqueName": "E:\\GTP-Batch-04\\Task8_ElasticSearch\\Task8_ElasticSearch\\Task8_ElasticSearch.csproj",
         "projectName": "Task8_ElasticSearch",
-        "projectPath": "E:\\test\\Task8_ElasticSearch\\Task8_ElasticSearch\\Task8_ElasticSearch.csproj",
+        "projectPath": "E:\\GTP-Batch-04\\Task8_ElasticSearch\\Task8_ElasticSearch\\Task8_ElasticSearch.csproj",
         "packagesPath": "C:\\Users\\SHAGHIL\\.nuget\\packages\\",
-        "outputPath": "E:\\test\\Task8_ElasticSearch\\Task8_ElasticSearch\\obj\\",
+        "outputPath": "E:\\GTP-Batch-04\\Task8_ElasticSearch\\Task8_ElasticSearch\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages"
@@ -46,6 +46,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "NEST": {
+              "target": "Package",
+              "version": "[7.17.5, )"
+            },
             "Serilog": {
               "target": "Package",
               "version": "[2.12.0, )"

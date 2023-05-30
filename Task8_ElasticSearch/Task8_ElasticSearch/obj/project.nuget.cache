@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "i32CLrhnLqVOYvJtyiVPh15QnnX+9SaDFaXpcBto+ARvSD3gZwt1mWInXTxfWdtgV4d07NkqNfs8mLYJ/9Lu9w==",
+  "dgSpecHash": "7CESKExZYWiORssDGazvFbIJzhj/c/bFd7a7SF66g2XIvo2mnoH6xp8CNQjo5ZglVxpyFoAgBfhP5VGIm+Mf1Q==",
   "success": true,
-  "projectFilePath": "E:\\test\\Task8_ElasticSearch\\Task8_ElasticSearch\\Task8_ElasticSearch.csproj",
+  "projectFilePath": "E:\\GTP-Batch-04\\Task8_ElasticSearch\\Task8_ElasticSearch\\Task8_ElasticSearch.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\SHAGHIL\\.nuget\\packages\\elasticsearch.net\\7.17.5\\elasticsearch.net.7.17.5.nupkg.sha512",
     "C:\\Users\\SHAGHIL\\.nuget\\packages\\microsoft.csharp\\4.6.0\\microsoft.csharp.4.6.0.nupkg.sha512",
+    "C:\\Users\\SHAGHIL\\.nuget\\packages\\nest\\7.17.5\\nest.7.17.5.nupkg.sha512",
     "C:\\Users\\SHAGHIL\\.nuget\\packages\\serilog\\2.12.0\\serilog.2.12.0.nupkg.sha512",
     "C:\\Users\\SHAGHIL\\.nuget\\packages\\serilog.formatting.compact\\1.1.0\\serilog.formatting.compact.1.1.0.nupkg.sha512",
     "C:\\Users\\SHAGHIL\\.nuget\\packages\\serilog.formatting.elasticsearch\\9.0.1\\serilog.formatting.elasticsearch.9.0.1.nupkg.sha512",

@@ -29,6 +29,22 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
+      "NEST/7.17.5": {
+        "type": "package",
+        "dependencies": {
+          "Elasticsearch.Net": "7.17.5"
+        },
+        "compile": {
+          "lib/netstandard2.0/Nest.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Nest.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
       "Serilog/2.12.0": {
         "type": "package",
         "compile": {
@@ -282,6 +298,25 @@
         "version.txt"
       ]
     },
+    "NEST/7.17.5": {
+      "sha512": "bo9UyuIoVRx4IUQiuC8ZrlZuvAXKIccernC7UUKukQCEmRq2eVIk+gubHlnMQljrP51q0mN4cjgy9vv5uZPkoA==",
+      "type": "package",
+      "path": "nest/7.17.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/Nest.dll",
+        "lib/net461/Nest.pdb",
+        "lib/net461/Nest.xml",
+        "lib/netstandard2.0/Nest.dll",
+        "lib/netstandard2.0/Nest.pdb",
+        "lib/netstandard2.0/Nest.xml",
+        "license.txt",
+        "nest.7.17.5.nupkg.sha512",
+        "nest.nuspec",
+        "nuget-icon.png"
+      ]
+    },
     "Serilog/2.12.0": {
       "sha512": "xaiJLIdu6rYMKfQMYUZgTy8YK7SMZjB4Yk50C/u//Z4OsvxkUfSPJy4nknfvwAC34yr13q7kcyh4grbwhSxyZg==",
       "type": "package",
@@ -510,6 +545,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "NEST >= 7.17.5",
       "Serilog >= 2.12.0",
       "Serilog.Sinks.Console >= 4.1.0",
       "Serilog.Sinks.Elasticsearch >= 9.0.1"
@@ -522,11 +558,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\test\\Task8_ElasticSearch\\Task8_ElasticSearch\\Task8_ElasticSearch.csproj",
+      "projectUniqueName": "E:\\GTP-Batch-04\\Task8_ElasticSearch\\Task8_ElasticSearch\\Task8_ElasticSearch.csproj",
       "projectName": "Task8_ElasticSearch",
-      "projectPath": "E:\\test\\Task8_ElasticSearch\\Task8_ElasticSearch\\Task8_ElasticSearch.csproj",
+      "projectPath": "E:\\GTP-Batch-04\\Task8_ElasticSearch\\Task8_ElasticSearch\\Task8_ElasticSearch.csproj",
       "packagesPath": "C:\\Users\\SHAGHIL\\.nuget\\packages\\",
-      "outputPath": "E:\\test\\Task8_ElasticSearch\\Task8_ElasticSearch\\obj\\",
+      "outputPath": "E:\\GTP-Batch-04\\Task8_ElasticSearch\\Task8_ElasticSearch\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\DevExpress 22.2\\Components\\Offline Packages"
@@ -561,6 +597,10 @@
       "net7.0": {
         "targetAlias": "net7.0",
         "dependencies": {
+          "NEST": {
+            "target": "Package",
+            "version": "[7.17.5, )"
+          },
           "Serilog": {
             "target": "Package",
             "version": "[2.12.0, )"
