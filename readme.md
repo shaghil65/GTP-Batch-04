@@ -11,7 +11,7 @@
 6. Take a 4K video and create it rendition of 2160p, 1440p, 1080p, 720p, 480p in mp4 format using ffmpeg
 7. Using EF5 update a record in database with attaching it by primary key
 8. Generate Log data in a loop with unique Identity of GUID and random text, index the log data into Elastic Search and provide interface to search on that record.
-9. Create object MashupInfo object using VIDIZMOContract Library and fill its property from Mashup and MashupMultilingualText table by a SP that returns MashupInfo object and its properties in JSON format
+9. Generate data with unique Identity of GUID and random text and store it in database in json format.
 10. Create a web application with google authentication
 11. Create a web application with azure active directory authentication, get azure active directory user information using Microsoft Graph API
 12. Create streaming publishing point on Wowza streaming server using API (get wowza credentials from Fahad Rehman)
