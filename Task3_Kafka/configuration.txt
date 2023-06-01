@@ -1,0 +1,5 @@
+to install kafka and zookeeper, also to start them.
+docker-compose up -d
+
+to create topic
+docker exec -it task3_kafka-kafka-1 kafka-topics --create --topic my-topic --partitions 1 --replication-factor 1 --bootstrap-server localhost:9092
